@@ -1,4 +1,3 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
 diff --git a/README.md b/README.md
 index 58beeaccd87e230076cab531b8f418f40b6d1aeb..8fccafc8bce1bc4bf01c7788fc724d8ddd6b98cd 100644
 --- a/README.md
@@ -103,6 +102,3 @@ index 58beeaccd87e230076cab531b8f418f40b6d1aeb..8fccafc8bce1bc4bf01c7788fc724d8d
 -### `npm run build` fails to minify
 -
 -This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
- 
-EOF
-)
